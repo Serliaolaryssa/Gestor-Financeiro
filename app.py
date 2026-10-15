@@ -8,9 +8,7 @@ import plotly.express as px
 
 st.set_page_config(page_title="Gestor Financeiro", layout="wide")
 
-# ==========================================
-# 🔒 SISTEMA DE LOGIN (SOMENTE VOCÊ ACESSA)
-# ==========================================
+
 SENHA_SECRETA = "Lucas@0929" # <--- Mude isso para a senha que você quiser!
 
 if "logado" not in st.session_state:
